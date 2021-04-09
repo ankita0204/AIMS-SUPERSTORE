@@ -1,0 +1,38 @@
+			h1{
+				font-family: Georgia;
+				height:150%;
+				font-weight:bold;
+				text-decoration:underline;
+				color:white ;
+				background-color:black;
+
+			}
+			table{
+				border:1px solid black;				
+				border-collapse: collapse;
+				width:60%;
+				table-layout:auto;
+				background-color:#F5D0CC;
+
+
+			}
+			td,th{
+				border:1px solid black;
+				padding:5px;
+			}
+			body{
+				background-image: url('grocery.png')
+			}
+			h3{
+			background-color:black  ;
+			color:white;
+			}
+
+			.btn {
+				padding: 10px 40px;
+				background-color: #660000;
+				color: #FFFFFF;
+				font-family: 'Trebuchet MS', sans-serif;
+				font-weight: bold;
+				border-radius: 10px;
+			}

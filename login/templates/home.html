@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Home Page </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='home_temp.css') }}">
+	</head>
+	<body></br></br></br>
+		<div align="center">
+		<div align="center" class="border">
+			<div class="header">
+				<h1 class="word">AIMS SUPERSTORE</h1>
+			</div></br></br>
+				<h1 class="bottom">
+					Hello!!</br></br> Welcome to AIMS Superstore ;)				
+				</h1></br></br></br>
+				<a href="{{ url_for('inventory') }}" class="btn">Inventory</a>
+				<a href="{{ url_for('update') }}" class="btn">Update</a></br></br></br>	
+				<a href="{{ url_for('logout') }}" class="btn">Logout</a>	
+		</div>
+		</div>
+	</body>
+</html>

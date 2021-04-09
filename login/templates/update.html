@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> AIMS SUPERSTORE </title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='update_temp.css') }}">
+	</head>
+	<body></br></br>
+		<div align="center">
+		<div align="center" class="border">
+			<div align="center" class="header">
+				<h1 class="word">Update</h1>
+			</div></br>
+			<h2 class="word">
+				<form action="{{ url_for('update') }}" method="post">
+				<div class="msg">{{ msg }}</div></br>
+					<input id="first_name" name="first_name" type="text" placeholder="First Name" class="textbox"/></br></br>
+					<input id="last_name" name="last_name" type="text" placeholder="Last Name" class="textbox"/></br></br>
+					<input id="phone" name="phone" type="tel" placeholder="Phone Number" class="textbox"/></br></br>
+					<input id="address" name="address" type="text" placeholder="Address" class="textbox"/></br></br>
+					<input type="submit" class="btn" value="Update"></br>
+				</form>
+			</h2>
+			</br>
+		<a href="{{ url_for('home') }}" class="btn">Home</a>
+		</div>
+		</div>
+	</body>
+</html>
